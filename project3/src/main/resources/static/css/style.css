@@ -1,0 +1,64 @@
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+
+/*.wrapper {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    margin-top: 10%;*/
+/*}*/
+
+/*.title {*/
+/*    width: 26ch;*/
+/*    overflow: hidden;*/
+/*    color: black;*/
+/*    font-size: 40px;*/
+/*    font-family: monospace;*/
+/*    white-space: nowrap;*/
+/*    border-right: 4px solid orange;*/
+/*    animation: printed-text 5s steps(26),*/
+/*    flashin-border .75s step-start infinite;*/
+/*}*/
+
+/*@keyframes flashin-border {*/
+/*    0% {*/
+/*        border-color: orange;*/
+/*    }*/
+
+/*    50% {*/
+/*        border-color: transparent;*/
+/*    }*/
+
+/*    100% {*/
+/*        border-color: orange;*/
+/*    }*/
+/*}*/
+
+/*@keyframes printed-text {*/
+/*    from {*/
+/*        width: 0%;*/
+/*    }*/
+/*}*/
+
+.cardText{
+    margin-top: 220px;
+    padding: 20px;
+}
+
+.createCard{
+    width: 300px;
+    height: 622px;
+    /*border: solid;*/
+    /*border-radius: 10px;*/
+    background-image: url("../images/phone2.png");
+    background-position: center;
+}
+
+
+
+
+
+

@@ -24,8 +24,7 @@
     <div class="row col-md-8 offset-md-2">
         <div class="card">
             <div th:if="${param.success}">
-                <div class="alert alert-info">Вы зарегистрированы
-                    to our app!</div>
+                <div class="alert alert-info">Вы зарегистрированы!</div>
             </div>
             <div class="card-header">
                 <h2 class="text-center">Регистрация</h2>
@@ -89,8 +88,7 @@
 
                     <div class="form-group mb-3">
                         <button class="btn btn-primary" type="submit">Регистрация</button>
-                        <span>Если имеется <a href="/" th:href="@{/login}">учетная запись
-                             here</a></span>
+                        <span>Если имеется учетная запись<a href="/" th:href="@{/login}"> нажмите здесь</a></span>
                     </div>
                 </form>
             </div>

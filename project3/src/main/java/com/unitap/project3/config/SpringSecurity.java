@@ -30,7 +30,7 @@ public class SpringSecurity {
 
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
-        return (web) -> web.ignoring().requestMatchers("/js/**", "/images/**");
+        return (web) -> web.ignoring().requestMatchers("/js/**", "/images/**", "/css/**");
     }
 
 
@@ -40,6 +40,7 @@ public class SpringSecurity {
 
                 .requestMatchers("/").permitAll()
                 .requestMatchers("/about").permitAll()
+                .requestMatchers("/index").permitAll()
                 .requestMatchers("/register/**").permitAll()
                 .requestMatchers("/users").hasRole("ADMIN")
                 .anyRequest().authenticated()
